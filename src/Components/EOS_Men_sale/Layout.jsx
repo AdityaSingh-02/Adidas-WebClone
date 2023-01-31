@@ -8,7 +8,7 @@ const Layout = () => {
 
   return (
     <>
-      <div className="grid grid-cols-4 gap-[2px]">
+      <div className="grid md:grid-cols-4 grid-cols-2 md:gap-[2px] gap-2">
         {ShoeData?.map(({ id, name, Price, ImageURI, category, HoverImg, orgPrice ,colorRange }) => (
           <div key={id} className=" hover:border border-1 border-black ">
             <div>

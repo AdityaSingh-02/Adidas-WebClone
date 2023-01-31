@@ -30,10 +30,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={`fixed h-40 transition-all ease-in duration-300 delay-300 ${hideNavbar?'-translate-y-44':''} `}>
+      <div className={`md:fixed md:h-40 w-screen transition-all ease-in duration-300 delay-300 ${hideNavbar?'-translate-y-44':''} `}>
         <Navbar />
       </div>
-      <div className='absolute translate-y-[120px] -z-20'>
+      <div className=' absolute translate-y-[120px] -z-20 w-screen'>
         <LandingPage />
       </div>
     </>
