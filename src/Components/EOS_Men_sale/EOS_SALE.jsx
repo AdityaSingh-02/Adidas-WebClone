@@ -9,7 +9,7 @@ function MenSale() {
     
     return (
         <>
-            <div className='md:w-[100%] w-[840px] md:px-20 px-3 md:pt-36 pt-12 '>
+            <div className='md:w-[100%] w-[840px] md:px-16 px-3 md:pt-36 pt-12 '>
                 <span className='md:flex hidden space-x-3 pb-7'>
                     <button onClick={()=>router.push('/')} className='flex font-semibold hover:bg-black hover:text-white underline transform ease-in duration-200'><IoReturnUpBackSharp />BACK</button>
                     <button className=' hover:bg-black hover:text-white underline transform ease-in duration-200 '>Home / </button>
